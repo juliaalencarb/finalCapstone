@@ -2,10 +2,19 @@
 
 In this repository, you will find all capstone projects I've done for the Software Engineering Skills Bootcamp at HyperionDev, supported by the Department for Education.
 
-## Contents
 ---
-Project: Finance Calculator | Task Manager 1 | Task Manager 2 | Inventory Manager | Bookstore Manager |
-Description: Calculates bond payments or investments revenue based on user's input | Program to manage tasks by user | Upgraded task manager | Nike shoes' inventory manager | Program for library clerk to manage inventory |
+## Contents
+
+- Project: Finance Calculator
+  - Description: Calculates bond payments or investments financial return based on user's input.
+- Project: Task Manager 1
+  - Description: Program to facilitate tasks assignment and management.
+- Project: Task Manager 2
+  - Description: Upgraded task manager with additional functions to edit tasks and to generate reports to improve user's productivity.
+- Project: Inventory Manager
+  - Description: Nike shoes' inventory manager that view, add and track items in stock.
+- Project: Bookstore Manager
+  - Description: Program for a library clerk to manage the inventory, making possible to visualize and make alterations on items currently on stock.
 ---
 
 ---
