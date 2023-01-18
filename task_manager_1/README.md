@@ -14,7 +14,7 @@
 - Python 3.11 - [read more](https://www.python.org/downloads/release/python-3110/)
 ---
 
-* **What is the goal of this project?**  This program was done using Python Programming and the built-in math library. This solution helps the user to calculate bond payments and to predict investments returns. It allows the user to choose which calculator they would like to access (e.g. investment calculator or bond calculator) and calculates the outcome for the chosen option, based on details provided by the user.
+* **What is the goal of this project?**  This program was made using Python Programming and the built-in datetime library. It facilitates tasks management in one place, making possible for the user to log in and see and/or add tasks, as well as register new users. A special statistics is available to the administrator.
 
 #### Functions:
 * Log in function: user has to type in their credentials, which are then validated to allow the user to log into the program (read from 'user.txt').
