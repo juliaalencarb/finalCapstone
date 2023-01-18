@@ -24,7 +24,7 @@
 * Statistics: **ADMIN ONLY ->** Displays the total number of users and tasks.
 
 #### Usage
-This program requires Python 3.11, as previously described. The Task Manager 1 can be accessed through [here](task_manager_1/). The whole file 'task_manager_1' must be downloaded, including all files. 'tasks.txt' and 'user.txt', are necessary in order to execute this program, as they are used to store tasks and users details, respectively.
+This program requires Python 3.11, as previously described. The whole file 'task_manager_1' must be downloaded, including all files. 'tasks.txt' and 'user.txt', are necessary in order to execute this program, as they are used to store tasks and users details, respectively.
 Once the contents are downloaded and the script is executed, the user will have to log in. The default log in details are 'admin' and 'adm1n', for username and passwords, respectively.
 
 <p align="center">
