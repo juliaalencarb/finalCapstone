@@ -23,7 +23,7 @@
 * Search a book: searches the database using a primary key and returns the record to the user.
 
 #### Usage
-This program requires Python 3.11, as previously described, and was developed using the sqlite3 built-in library. The Bookstore Manager can be accessed through [here](finalCapstone/bookstore_manager/). Only 'bookstore_manager.py' is necessary to execute this program, as the database will be generated automatically if none is found.
+This program requires Python 3.11, as previously described, and was developed using the sqlite3 built-in library. Only 'bookstore_manager.py' is necessary to execute this program, as the database will be generated automatically if none is found.
 Once the script is downloaded and executed, the user will be prompted with a menu, as shown below.
 
 <p align="center">
