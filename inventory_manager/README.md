@@ -23,7 +23,7 @@
 * Search product/ see product value/ see item on sale: the user can see the referred information for a specific item.
 
 #### Usage
-This program requires Python 3.11, as previously described, and was developed applying all concepts inherent to Object-Oriented Programming principles. The Inventory Manager can be accessed through [here](inventory_manager/). The whole file 'inventory_manager' must be downloaded, including 'inventory.txt', which holds all information about the products in stock.
+This program requires Python 3.11, as previously described, and was developed applying all concepts inherent to Object-Oriented Programming principles. The whole file 'inventory_manager' must be downloaded, including 'inventory.txt', which holds all information about the products in stock.
 Once the contents are downloaded and the script is executed, the user will be prompted with a menu, as shown below.
 
 <p align="center">
