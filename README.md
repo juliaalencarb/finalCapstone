@@ -30,9 +30,9 @@ In this repository, you will find all capstone projects I've done for the Softwa
 
 #### Usage
 This program requires Python 3.11, as previously described. The finance calculator can be accessed through [here](finance_calculator/), and once downloaded and executed, the user will be prompted with a menu on the terminal:
-[window](images/task_manager_menu.png)
+![menu]([https://github.com/juliaalencarb/finalCapstone/blob/d76a143ef1f576c5645362531c707288066fadab/images/task_manager_menu.png])
 Then, the user should choose an option by typing the referred key word on terminal (e.g. 'bond' or 'investment') and press Enter. Then, after providing the details required by the system, the result will be displayed.
-[window](images/task_manager_example.png)
+![example]([https://github.com/juliaalencarb/finalCapstone/blob/d76a143ef1f576c5645362531c707288066fadab/images/finance_calculator_example.png])
 
 
 ### Task Manager 1
