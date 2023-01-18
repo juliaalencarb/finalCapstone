@@ -5,17 +5,13 @@ In this repository, you will find all capstone projects I've done for the Softwa
 ---
 ## Contents
 
-- Project: Finance Calculator
-  - Description: Calculates bond payments or investments financial return based on user's input.
-- Project: Task Manager 1
-  - Description: Program to facilitate tasks assignment and management.
-- Project: Task Manager 2
-  - Description: Upgraded task manager with additional functions to edit tasks and to generate reports to improve user's productivity.
-- Project: Inventory Manager
-  - Description: Nike shoes' inventory manager that view, add and track items in stock.
-- Project: Bookstore Manager
-  - Description: Program for a library clerk to manage the inventory, making possible to visualize and make alterations on items currently on stock.
----
+| Project Name | Description |
+|--------------|-------------|
+| Finance Calculator | Calculates bond payments or investments financial return based on user's input. |
+| Task Manager 1 | Program to facilitate tasks assignment and management. |
+| Task Manager 2 | Upgraded task manager with additional functions to edit tasks and to generate reports to improve user's productivity. |
+| Inventory Manager | Nike shoes' inventory manager that allows the user to view, add and track items in stock. |
+| Bookstore Manager | Program for a library clerk to manage the inventory, making possible to visualize and make alterations on items currently on stock. |
 
 ---
 ## Requirements
@@ -26,12 +22,17 @@ In this repository, you will find all capstone projects I've done for the Softwa
 ## Projects
 ### Finance Calculator
 
-The finance calculator can be accessed through [here](finance_calculator/).
-* **What is the goal of this project?**  This program was done using Python Programming. It allows the user to choose which calculator they would like to access (e.g. investment calculator or bond calculator) and calculates the outcome for the chosen option.
+* **What is the goal of this project?**  This program was done using Python Programming and the built-in math library. This solution helps the user to calculate bond payments and to predict investments returns. It allows the user to choose which calculator they would like to access (e.g. investment calculator or bond calculator) and calculates the outcome for the chosen option, based on details provided by the user.
 
 #### Functions:
 * Investment calculator: if the user choose this option, it will prompt the user with questions for specific details to calculate their revenue (e.g. simple or compound interest, interest_rate, amount invested, timespan).
 * Bond calculator: if the user choose this option, it will prompt the user with questions for specific details to calculate the monthly amount to be paid (e.g. property value, interest rate, timespan).
+
+#### Usage
+This program requires Python 3.11, as previously described. The finance calculator can be accessed through [here](finance_calculator/), and once downloaded and executed, the user will be prompted with a menu on the terminal:
+[window](images/task_manager_menu.png)
+Then, the user should choose an option by typing the referred key word on terminal (e.g. 'bond' or 'investment') and press Enter. Then, after providing the details required by the system, the result will be displayed.
+[window](images/task_manager_example.png)
 
 
 ### Task Manager 1
