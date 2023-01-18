@@ -11,7 +11,7 @@ passwords = []
 #====Login Section====
 # Section that will allow a user to login.
 # Reading usernames and password from the user.txt file.
-with open("../HyperionDev_II/user.txt", "r") as file:
+with open("user.txt", "r") as file:
     user_data = file.readlines()
     for data in user_data:
         split_user_data = data.split(",") # Splitting data every ",".
@@ -77,7 +77,7 @@ while True:
             # Check if the new password and confirmed password are the same, then add them to the user.txt file.
             # Otherwise, displays a relevant message.
             if new_password == new_password_confirmation:
-                with open('../HyperionDev_II/user.txt', "a") as f:
+                with open('user.txt', "a") as f:
                     f.write(f"\n{new_username}, {new_password}")
             else:
                 print("You entered a different password. Try again.")
@@ -97,12 +97,12 @@ while True:
         current_date = datetime.now()
         formatted_current_date = current_date.strftime("%d %b %Y") # Formatting to requested format.
         # Adding new task to 'tasks.txt'.
-        with open("../HyperionDev_II/tasks.txt", "a") as f:
+        with open("tasks.txt", "a") as f:
             f.write(f"\n{new_task_username}, {new_task_title}, {new_task_description}, {formatted_current_date}, {final_formatted_date}, No")
 
     # Reading tasks from task.txt file and printing formatted task as required.
     elif menu == 'va':
-        with open("../HyperionDev_II/tasks.txt", "r") as f:
+        with open("tasks.txt", "r") as f:
             data = f.readlines()
 
             for task in data:
@@ -118,7 +118,7 @@ Task Description:
 
     # Reading tasks from task.txt file and printing formatted task as requested (specific for user).
     elif menu == 'vm':
-        with open("../HyperionDev_II/tasks.txt", "r") as f:
+        with open("tasks.txt", "r") as f:
             data = f.readlines()
 
             for task in data:
@@ -135,11 +135,11 @@ Task Description:
 
     # Displays tasks and users counts (specific for 'admin').
     elif menu == "st":
-        with open("../HyperionDev_II/user.txt", "r") as f:
+        with open("user.txt", "r") as f:
             users = f.readlines()
             total_users_num = len(users) # Getting total users number.
 
-        with open("../HyperionDev_II/tasks.txt", "r") as f:
+        with open("tasks.txt", "r") as f:
             tasks = f.readlines()
             total_task_num = len(tasks) # Getting total tasks number.
 
