@@ -22,13 +22,14 @@
 * Update a book: update a detail for a book within the database.
 * Search a book: searches the database using a primary key and returns the record to the user.
 
-#### Usage
+#### Installation and Usage
 This program requires Python 3.11, as previously described, and was developed using the sqlite3 built-in library. Only 'bookstore_manager.py' is necessary to execute this program, as the database will be generated automatically if none is found.
-Once the script is downloaded and executed, the user will be prompted with a menu, as shown below.
+Once the script is downloaded, the script can be executed on the terminal by typing `python3 bookstore_manager.py` as shown below. The user will then be prompted with a menu.
 
 <p align="center">
-<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/bookstore_manager_menu.png" width=75% height=75%>
+<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/bookstore_terminal.png" width=75% height=75%>
 </p>
+Obs.: you should navigate to the folder where financial_calculator.py is located in using the 'cd' command.
 
 The user can then choose from the options listed as previously seen. If the user desires to add a new book to the database, they can do it by choosing option 1. After providing all the required details, as described below, the new item is saved to the database.
 
