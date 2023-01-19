@@ -26,12 +26,13 @@ In this repository, you will find all capstone projects I've done for the Softwa
 * Investment calculator: if the user choose this option, it will prompt the user with questions for specific details to calculate their revenue (e.g. simple or compound interest, interest_rate, amount invested, timespan).
 * Bond calculator: if the user choose this option, it will prompt the user with questions for specific details to calculate the monthly amount to be paid (e.g. property value, interest rate, timespan).
 
-#### Usage
-This program requires Python 3.11, as previously described. The finance calculator can be accessed through [here](finance_calculator/), and once downloaded and executed, the user will be prompted with a menu on the terminal:
+#### Installation and Usage
+This program requires Python 3.11, as previously described. The finance calculator can be accessed through [here](finance_calculator/), and once downloaded, the script can be executed on the terminal by typing `python3 finance_calculator.py` as shown below:
 
 <p align="center">
-<img src="https://github.com/juliaalencarb/finalCapstone/blob/d76a143ef1f576c5645362531c707288066fadab/images/task_manager_menu.png" width=75% height=75%>
+<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/finance_calc_terminal.png" width=75% height=75%>
 </p>
+Obs.: you should navigate to the folder where financial_calculator.py is located in using the 'cd' command.
 
 Then, the user should choose an option by typing the referred key word on terminal (e.g. 'bond' or 'investment') and press Enter. Then, after providing the details required by the system, the result will be displayed.
 
@@ -51,13 +52,14 @@ Then, the user should choose an option by typing the referred key word on termin
 * View my tasks: shows all tasks for the user currently logged in.
 * Statistics: **ADMIN ONLY ->** Displays the total number of users and tasks.
 
-#### Usage
+#### Installation and Usage
 This program requires Python 3.11, as previously described. The Task Manager 1 can be accessed through [here](task_manager_1/). The whole file 'task_manager_1' must be downloaded, including all files. 'tasks.txt' and 'user.txt', are necessary in order to execute this program, as they are used to store tasks and users details, respectively.
-Once the contents are downloaded and the script is executed, the user will have to log in. The default log in details are 'admin' and 'adm1n', for username and passwords, respectively.
+Once the contents are downloaded, the script can be executed on the terminal by typing `python3 task_manager.py` as shown below. The user will have to log in. The default log in details are 'admin' and 'adm1n', for username and passwords, respectively.
 
 <p align="center">
-<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/task_manager_1_initial.png" width=50% height=50%>
+<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/task_manager_1_terminal.png" width=50% height=50%>
 </p>
+Obs.: you should navigate to the folder where financial_calculator.py is located in using the 'cd' command.
 
 The user will then be prompt with a menu offering several tools for tasks management. The first tool this program offers is to register new users. The user will have to enter a new username and password, followed by a password confirmation. Then, this new user will be saved on 'user.txt' for future reference, and the initial menu will be prompted again.
 
@@ -103,13 +105,14 @@ View my tasks:
 * Statistics and reports: **ADMIN ONLY ->** Display all statistics for users and tasks. The administrator can also generate reports regarding tasks and users, containing information such as how many tasks a referred user has completed, uncompleted or overdue.
 
 
-#### Usage
+#### Installation and Usage
 This program requires Python 3.11, as previously described. The Task Manager 2 can be accessed through [here](task_manager_2/). The whole file 'task_manager_2' must be downloaded, including all files. 'tasks.txt' and 'user.txt', are necessary in order to execute this program, as they are used to store tasks and users details, respectively.
-Once the contents are downloaded and the script is executed, the user will have to log in. The default log in details are 'admin' and 'adm1n', for username and passwords, respectively.
+Once the contents are downloaded, the script can be executed on the terminal by typing `python3 task_manager2.py` as shown below. The user will have to log in. The default log in details are 'admin' and 'adm1n', for username and passwords, respectively.
 
 <p align="center">
-<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/task_manager_1_initial.png" width=50% height=50%>
+<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/task_manager_2_terminal.png" width=50% height=50%>
 </p>
+Obs.: you should navigate to the folder where financial_calculator.py is located in using the 'cd' command.
 
 For registering a user, adding a task and view all tasks functions, please refer to 'Task Manager 1' documentation, as these options are preserved.
 
@@ -178,13 +181,14 @@ Finally, the administrator can have these details displayed on the terminal by s
 * Restock a product: the user can update the quantity in stock for a particular item.
 * Search product/ see product value/ see item on sale: the user can see the referred information for a specific item.
 
-#### Usage
+#### Installation and Usage
 This program requires Python 3.11, as previously described, and was developed applying all concepts inherent to Object-Oriented Programming principles. The Inventory Manager can be accessed through [here](inventory_manager/). The whole file 'inventory_manager' must be downloaded, including 'inventory.txt', which holds all information about the products in stock.
-Once the contents are downloaded and the script is executed, the user will be prompted with a menu, as shown below.
+Once the contents are downloaded, the script can be executed on the terminal by typing `python3 inventory_manager.py` as shown below. The user will be prompted with a menu, as shown below.
 
 <p align="center">
-<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/Inventory_manager_menu.png" width=50% height=50%>
+<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/inventory_manager_terminal.png" width=50% height=50%>
 </p>
+Obs.: you should navigate to the folder where financial_calculator.py is located in using the 'cd' command.
 
 If the user chooses the option to see all items currently on stock, a list of all products will be displayed in a user-friendly format.
 
@@ -233,13 +237,14 @@ Finally, the user can also fetch witch item is currently on sale. The program wi
 * Update a book: update a detail for a book within the database.
 * Search a book: searches the database using a primary key and returns the record to the user.
 
-#### Usage
+#### Installation and Usage
 This program requires Python 3.11, as previously described, and was developed using the sqlite3 built-in library. The Bookstore Manager can be accessed through [here](bookstore_manager/). Only 'bookstore_manager.py' is necessary to execute this program, as the database will be generated automatically if none is found.
-Once the script is downloaded and executed, the user will be prompted with a menu, as shown below.
+Once the script is downloaded, the script can be executed on the terminal by typing `python3 bookstore_manager.py` as shown below. The user will then be prompted with a menu.
 
 <p align="center">
-<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/bookstore_manager_menu.png" width=75% height=75%>
+<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/bookstore_terminal.png" width=75% height=75%>
 </p>
+Obs.: you should navigate to the folder where financial_calculator.py is located in using the 'cd' command.
 
 The user can then choose from the options listed as previously seen. If the user desires to add a new book to the database, they can do it by choosing option 1. After providing all the required details, as described below, the new item is saved to the database.
 
