@@ -25,13 +25,14 @@
 * Statistics and reports: **ADMIN ONLY ->** Display all statistics for users and tasks. The administrator can also generate reports regarding tasks and users, containing information such as how many tasks a referred user has completed, uncompleted or overdue.
 
 
-#### Usage
+#### Installation and Usage
 This program requires Python 3.11, as previously described. The whole file 'task_manager_2' must be downloaded, including all files. 'tasks.txt' and 'user.txt', are necessary in order to execute this program, as they are used to store tasks and users details, respectively.
-Once the contents are downloaded and the script is executed, the user will have to log in. The default log in details are 'admin' and 'adm1n', for username and passwords, respectively.
+Once the contents are downloaded, the script can be executed on the terminal by typing `python3 task_manager2.py` as shown below. The user will have to log in. The default log in details are 'admin' and 'adm1n', for username and passwords, respectively.
 
 <p align="center">
-<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/task_manager_1_initial.png" width=50% height=50%>
+<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/task_manager_2_terminal.png" width=50% height=50%>
 </p>
+Obs.: you should navigate to the folder where financial_calculator.py is located in using the 'cd' command.
 
 For registering a user, adding a task and view all tasks functions, please refer to 'Task Manager 1' documentation, as these options are preserved.
 
