@@ -21,7 +21,7 @@
 * Bond calculator: if the user choose this option, it will prompt the user with questions for specific details to calculate the monthly amount to be paid (e.g. property value, interest rate, timespan).
 
 #### Installation and Usage
-This program requires Python 3.11, as previously described. Once downloaded, the script can be executed on the terminal by typing `python3 finance_calculator.py` as shown below:
+This program requires Python 3.11, as previously described. Once downloaded, the script can be executed on the terminal by typing `python3 finance_calculators.py` as shown below:
 
 <p align="center">
 <img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/finance_calc_terminal.png" width=75% height=75%>
