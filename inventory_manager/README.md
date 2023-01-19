@@ -22,13 +22,15 @@
 * Restock a product: the user can update the quantity in stock for a particular item.
 * Search product/ see product value/ see item on sale: the user can see the referred information for a specific item.
 
-#### Usage
+#### Installation and Usage
 This program requires Python 3.11, as previously described, and was developed applying all concepts inherent to Object-Oriented Programming principles. The whole file 'inventory_manager' must be downloaded, including 'inventory.txt', which holds all information about the products in stock.
-Once the contents are downloaded and the script is executed, the user will be prompted with a menu, as shown below.
+Once the contents are downloaded, the script can be executed on the terminal by typing `python3 inventory_manager.py` as shown below. The user will be prompted with a menu, as shown below.
 
 <p align="center">
-<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/Inventory_manager_menu.png" width=50% height=50%>
+<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/inventory_manager_terminal.png" width=50% height=50%>
 </p>
+Obs.: you should navigate to the folder where financial_calculator.py is located in using the 'cd' command.
+
 
 If the user chooses the option to see all items currently on stock, a list of all products will be displayed in a user-friendly format.
 
