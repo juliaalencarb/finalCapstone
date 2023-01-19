@@ -23,13 +23,14 @@
 * View my tasks: shows all tasks for the user currently logged in.
 * Statistics: **ADMIN ONLY ->** Displays the total number of users and tasks.
 
-#### Usage
+#### Installation and Usage
 This program requires Python 3.11, as previously described. The whole file 'task_manager_1' must be downloaded, including all files. 'tasks.txt' and 'user.txt', are necessary in order to execute this program, as they are used to store tasks and users details, respectively.
-Once the contents are downloaded and the script is executed, the user will have to log in. The default log in details are 'admin' and 'adm1n', for username and passwords, respectively.
+Once the contents are downloaded, the script can be executed on the terminal by typing `python3 task_manager.py` as shown below. The user will have to log in. The default log in details are 'admin' and 'adm1n', for username and passwords, respectively.
 
 <p align="center">
-<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/task_manager_1_initial.png" width=50% height=50%>
+<img src="https://github.com/juliaalencarb/finalCapstone/blob/master/images/task_manager_1_terminal.png" width=50% height=50%>
 </p>
+Obs.: you should navigate to the folder where financial_calculator.py is located in using the 'cd' command.
 
 The user will then be prompt with a menu offering several tools for tasks management. The first tool this program offers is to register new users. The user will have to enter a new username and password, followed by a password confirmation. Then, this new user will be saved on 'user.txt' for future reference, and the initial menu will be prompted again.
 
